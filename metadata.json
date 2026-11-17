@@ -1,0 +1,6 @@
+{
+  "name": "geometry_lab_by_majdi",
+  "description": "مختبر الهندسة التفاعلي ثلاثي الأبعاد لتلاميذ المرحلة الابتدائية (السنة السادسة أساسي) - إعداد الأستاذ مجدي",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
