@@ -588,7 +588,6 @@ export class ClassroomSceneController {
     });
     bodyGeo.rotateY(Math.PI / 2);
     bodyGeo.translate(-0.04, 0.001, 0);
-    bodyGeo.computeTangents();
 
     const bodyMat = new THREE.MeshPhysicalMaterial({
       color: '#e0f2fe',
@@ -725,7 +724,6 @@ export class ClassroomSceneController {
       uvs[i * 2 + 1] = -vz / legW;
     }
     extrudeGeo.setAttribute('uv', new THREE.BufferAttribute(uvs, 2));
-    extrudeGeo.computeTangents();
 
     // Grounded contact shadow directly underneath the triangle
     const sqShadowTex = createToolContactShadowTexture('triangle');
@@ -853,7 +851,6 @@ export class ClassroomSceneController {
       bevelSegments: 2,
     });
     geo.rotateX(-Math.PI / 2);
-    geo.computeTangents();
 
     // Grounded contact shadow directly underneath the protractor
     const protShadowTex = createToolContactShadowTexture('semicircle');

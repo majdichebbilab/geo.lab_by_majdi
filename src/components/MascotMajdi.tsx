@@ -16,8 +16,7 @@ import {
   WorkspaceMode,
 } from '../types/geometry';
 
-const TEACHER_LOGO_SRC =
-  '/assets/aistudio/907839091_1760631539400894_1439018136014051481_n_639f1b42.jpg';
+const TEACHER_LOGO_SRC = `${import.meta.env.BASE_URL}assets/aistudio/907839091_1760631539400894_1439018136014051481_n_639f1b42.jpg`;
 
 interface MascotMajdiProps {
   lang: Language;
